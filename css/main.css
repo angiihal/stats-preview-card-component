@@ -1,0 +1,73 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Inter", sans-serif;
+    background-color: #0a0c1b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.content-wrapper {
+    border-radius: 25px;
+    width: 87%;
+    background-color: #1c1938;
+    text-align: center;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.image-container {
+    background: linear-gradient(hsl(277, 64%, 61%, 50%), hsl(277, 64%, 61%, 50%)),
+    url("../images/image-header-mobile.jpg") no-repeat center;
+    background-size: cover;
+    box-shadow: inset #9d63c7;
+    padding-bottom: 75%;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+}
+
+.text-container {
+    width: 70%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+h1 span {
+    color: #9d63c7;
+}
+
+.description-container p {
+    margin-bottom: 50px;
+    opacity: 0.75;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.stats-container .stats {
+    margin-bottom: 40px;
+}
+
+.stats-description {
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.attribution {
+    margin-bottom: 30px;
+}
