@@ -29,7 +29,6 @@ body {
     background: linear-gradient(hsl(277, 64%, 61%, 50%), hsl(277, 64%, 61%, 50%)),
     url("../images/image-header-mobile.jpg") no-repeat center;
     background-size: cover;
-    box-shadow: inset #9d63c7;
     padding-bottom: 75%;
     border-radius: 25px 25px 0 0;
     width: 100%;
@@ -70,4 +69,44 @@ h1 span {
 
 .attribution {
     margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1440px) {
+    html,
+    body {
+        height: 100%;
+        overflow: hidden;
+    }
+    .content-wrapper {
+        width: 77%;
+        text-align: left;
+        flex-flow: row-reverse nowrap;
+    }
+
+    .text-container {
+        width: 51%;
+        align-items: flex-start;
+        margin: 0 0 0 100px;
+    }
+
+    .image-container {
+        width: 49%;
+        padding-bottom: 40%;
+        border-radius: 0 25px 25px 0;
+    }
+
+    .description-container {
+        width: 66%;
+    }
+
+    .stats-container {
+        width: 66%;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row nowrap;
+    }
+
+    .stats-container .stats {
+        margin-bottom: 0;
+    }
 }
